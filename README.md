@@ -5,6 +5,8 @@ This repository explores the use of machine learning models for body recognition
 ## Overview
 This project has three primary approaches:
 
+![Tracking Body](tracking-body.png)
+
 1. Comparison of MediaPipe and YOLO for Body Recognition
 
 Tests and documents the differences between these two models, particularly in terms of accuracy, speed, and tracking quality.
