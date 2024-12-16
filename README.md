@@ -20,10 +20,21 @@ MediaPipe Segmentation isolates the human silhouette from the background.
 The silhouette is sent via Syphon as a dynamic mask to be used in videomapping software, such as MadMapper.
 
 ## Installation
-To run the Jupyter Notebook and the associated projects, ensure you have the required Python libraries:
+To run the Jupyter Notebook and the associated projects, ensure you have the required Python libraries in your environment:
+
 ```
-pip install ultralytics mediapipe opencv-python python-osc syphonpy PyOpenGL glfw
+conda activate aicp
 ```
+
+```
+pip install ultralytics mediapipe opencv-python python-osc
+```
+
+If you are using MacOS you can install Syphon dependencies:
+```
+pip install syphonpy PyOpenGL glfw
+```
+
 
 - mediapipe: For body recognition and segmentation.
 - opencv-python: For image processing and video capture.
