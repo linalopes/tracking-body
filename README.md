@@ -44,6 +44,7 @@ pip install syphonpy PyOpenGL glfw
 - glfw: For managing OpenGL contexts, windows, and events for rendering visuals. For managing Syphon server visuals.
 
 **Processing 4 needs oscP5 and Syphon libraries**
+
 Go to Sketch > Import Library > Manage Libraries
 
 - To run Syphon in Processing 4, you need the Processing 4 for Intel (x64) based instead of Apple Silicon.
